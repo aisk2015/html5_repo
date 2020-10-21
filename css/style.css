@@ -1,0 +1,223 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    color: #333333;
+}
+.container {
+    width:1280px;
+    margin: 0 auto;
+}
+/* all header content styles section */
+.page-header{
+    background-color: #445162;
+    box-sizing: border-box;
+    width:100%;
+    padding: 50px;
+    color: #fff;
+}
+.page-header:after, .page-main-section-about:after, .page-main-section-others:after{
+    content:"";
+    display: block;
+    clear: both;
+}
+
+.page-wraper {
+    float:left;
+}
+
+.page-header-title {
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    font-size: 60px;
+    font-weight: 400;
+    line-height: normal;
+    margin:0 0 50px 0;
+    padding: 0 0 0 0;
+}
+
+.page-header-list {
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    margin: 0 0 0 37px;
+    padding: 0 0 0 0;
+    list-style-type: none;
+}
+
+.page-header-list-item {
+    position: relative;
+    padding: 0 0 0 0;
+}
+.page-header-list-item:before{
+    content: "";
+    display: block;
+    position: absolute;
+    width:25px;
+    height: 19px;
+    margin: 0 10px 0 0; 
+    top: 7px;
+    left: -37px;
+    background-image: url('images/check_icon.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.page-header-product-image {
+    background-color: #fff;
+    border:1px solid green;
+    float: right;
+    color: black;
+}
+/* all main content styles section */
+.page-main {
+    width: 100%;
+    box-sizing: border-box;
+}
+/* section about content style */
+.page-main-section-about{
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.page-main-section-about-wraper{
+    width: 649px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    float: left;
+}
+
+.page-main-section-about-header{
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    margin: 0 0 0 0;
+    padding: 0 0 30px 0;
+}
+.page-main-section-about-text{
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+.page-main-section-about-video{
+    background-color: #445161;
+    width:430px;
+    height: 245px;
+    float: right;
+    color: #fff;
+}
+
+/* section others content style */
+.page-main-section-others {
+    background-color: #f5f5f5;
+    padding:50px 50px 0 50px;
+}
+.page-main-section-others-header {
+    height: 28px;
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    margin: 0 0 30px 0;
+    padding: 0;
+}
+
+.page-main-section-others-list-1{
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+}
+.page-main-section-others-list-1 li{
+    margin: 0 0 0 50px;
+}
+.page-main-section-others-list-2 li{
+    margin: 0 0 0 60px;
+}
+.page-main-section-others-list-2{
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+}
+
+.page-main-section-others-list-item{
+    position: relative;
+    margin:0;
+    padding: 0 0 35px 0;
+    display: block;
+}
+.page-main-section-others-list-item:before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 5px;
+    left:-42px;
+    background-image: url("images/plus_icon.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* section screenshots content style */
+.page-main-section-screenshots{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 50px;
+}
+
+.page-main-section-screenshots-header{
+color: #445161;
+font-size: 30px;
+font-weight: 400;
+line-height: 36px;
+text-align: center;
+margin: 0 0 35px 0;
+padding: 0;
+}
+.page-main-section-screenshots-figure{
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    margin: 0;
+    padding: 0 15px 0 0;
+}
+.page-main-section-screenshots-figure-picture{
+    width: 200px;
+    height: 150px;
+    background-color: #445161;
+    color:#fff;
+    float: left;
+    margin: 0 15px 0 0;
+}
+.page-main-section-screenshots-figure-figurecaption{
+
+}
+.page-main-section-screenshots-pic-title{
+    color: #445161;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 0;
+    padding: 0;
+}
+.page-main-section-screenshots-pic-text{
+    margin: 0 0 30px 0;
+    padding: 0;
+}
+
+/* all footer content styles section */
+.page-footer {
+
+}
