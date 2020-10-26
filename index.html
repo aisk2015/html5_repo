@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -39,12 +40,16 @@
                         quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo
                         debitis dolor.</p>
                 </div>
-                <video class="page-main-section-about-video" title="video about your product" width="430" height="245">
+                <video src="video/video.mp4" class="page-main-section-about-video" title="video about your product"
+                    height="245" controls muted autoplay loop preload="meta"
+                    poster="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/CSS3_and_HTML5_logos_and_wordmarks.svg/1280px-CSS3_and_HTML5_logos_and_wordmarks.svg.png">
+                    Элемент video не поддерживается вашим браузером.
+                    <a href="video/video.mp4">Скачайте видео</a>.
                 </video>
             </section>
             <section class="page-main-section-others">
                 <h2 class="page-main-section-others-header">Dignity and pluses product</h2>
-                <ul class="page-main-section-others-list-1">
+                <ul class="page-main-section-others-list">
                     <li class="page-main-section-others-list-item">Delectus dolorem vero quae beatae quasi dolor
                         deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit
                         ratione perferendis quas, maxime, quaerat porro totam, dolore minus inventore.</li>
@@ -54,8 +59,6 @@
                     <li class="page-main-section-others-list-item">Delectus dolorem vero quae beatae quasi dolor
                         deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit
                         ratione perferendis quas, maxime, quaerat porro totam, dolore minus inventore.</li>
-                </ul>
-                <ul class="page-main-section-others-list-2">
                     <li class="page-main-section-others-list-item">Delectus dolorem vero quae beatae quasi dolor
                         deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit
                         ratione perferendis quas, maxime, quaerat porro totam, dolore minus inventore.</li>
@@ -116,7 +119,6 @@
                 <h2 class="page-main-reviews-title">Reviews</h2>
                 <div class="page-main-reviews-article">
                     <div class="page-main-reviews-article-photo">
-
                     </div>
                     <p class="page-main-reviews-article-text">Porro officia cumque sint deleniti nemo facere rem
                         vitae
@@ -128,7 +130,6 @@
                 </div>
                 <div class="page-main-reviews-article">
                     <div class="page-main-reviews-article-photo">
-
                     </div>
                     <p class="page-main-reviews-article-text">Porro officia cumque sint deleniti nemo facere rem
                         vitae
@@ -140,7 +141,6 @@
                 </div>
                 <div class="page-main-reviews-article">
                     <div class="page-main-reviews-article-photo">
-
                     </div>
                     <p class="page-main-reviews-article-text">Porro officia cumque sint deleniti nemo facere rem
                         vitae odit
@@ -148,11 +148,9 @@
                         doloribus, possimus officiis sapiente necessitatibus commodi consectetur?
                         <span class="page-main-reviews-article-author">Lourens S.</span>
                     </p>
-
                 </div>
                 <div class="page-main-reviews-article">
                     <div class="page-main-reviews-article-photo">
-
                     </div>
                     <p class="page-main-reviews-article-text">Porro officia cumque sint deleniti nemo facere rem
                         vitae
@@ -174,7 +172,7 @@
                         <li class="page-main-buy-block-list-item">Cum odio, iste quia doloribus autem;</li>
                         <li class="page-main-buy-block-list-item">Aperiam nulla ea neque.</li>
                     </ol>
-                    <button class="page-main-buy-block-button">BUY</button>
+                    <button class="page-main-buy-block-button">buy</button>
                 </div>
                 <div class="page-main-buy-block">
                     <h3 class="page-main-buy-block-title">Premium</h3>
@@ -189,7 +187,7 @@
                         <li class="page-main-buy-block-list-item">Cum odio, iste quia doloribus autem;</li>
                         <li class="page-main-buy-block-list-item">Aperiam nulla ea neque.</li>
                     </ol>
-                    <button class="page-main-buy-block-button">BUY</button>
+                    <button class="page-main-buy-block-button">buy</button>
                 </div>
                 <div class="page-main-buy-block">
                     <h3 class="page-main-buy-block-title">Lux</h3>
@@ -208,16 +206,38 @@
                         <li class="page-main-buy-block-list-item">Cum odio, iste quia doloribus autem;</li>
                         <li class="page-main-buy-block-list-item">Aperiam nulla ea neque.</li>
                     </ol>
-                    <button class="page-main-buy-block-button">BUY</button>
+                    <button class="page-main-buy-block-button">buy</button>
                 </div>
             </section>
         </main>
         <!-- footer container -->
         <footer class="page-footer">
+            <h3 class="page-footer-title">Contacts</h3>
+            <from class="page-footer-form" action="#" method="post">
+                <input class="page-footer-form-input" type="text" placeholder="Your name:">
+                <input class="page-footer-form-input" type="email" placeholder="Your email:">
+                <textarea class="page-footer-form-textarea" placeholder="Your message:"></textarea>
+                <input class="page-footer-form-button" type="submit" value="send"></input>
+            </from>
+            <div class="page-footer-contacts">
+                <span class="page-footer-contacts-ico skype">here_your_login_skype</span>
+                <span class="page-footer-contacts-ico icq">279679659</span>
+                <span class="page-footer-contacts-ico mail">psdhtmlcss@mail.ru</span>
+                <span class="page-footer-contacts-ico phone">80 00 4568 55 55</span>
+                <div class="page-footer-social">
+                    <a href="#" class="page-footer-contacts-link twiter"></a>
+                    <a href="#" class="page-footer-contacts-link facebook"></a>
+                    <a href="#" class="page-footer-contacts-link in"></a>
+                    <a href="#" class="page-footer-contacts-link google"></a>
+                    <a href="#" class="page-footer-contacts-link youtube"></a>
+                </div>
+            </div>
 
         </footer>
+        <aside class="footer-copirights">
+            <h5 class="footer-copyrights-title">Copyright @ 2020 Product name - PSD HTML CSS</h5>
+        </aside>
     </div>
-
 </body>
 
 </html>
