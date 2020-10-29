@@ -464,18 +464,35 @@ padding: 0;
     top: 1px;
     left: 0;
   }
-  .page-footer-social{
+.page-footer-social{
     display: flex;
     justify-content: space-between;
     border: 1px solid red;
   }
-  .page-footer-contacts-link{
+.page-footer-contacts-link{
     display: block;
     width: 42px;
     height: 42px;
     box-sizing: border-box;
     border: 1px solid #fff;
+    background-image: url("img/social_buttons.png");
+    background-color: #445162;
   }
+.page-footer-contacts-link:nth-child(1){
+    background-position: 0 0;
+}
+.page-footer-contacts-link:nth-child(2){
+    
+}
+.page-footer-contacts-link:nth-child(3){
+    
+}
+.page-footer-contacts-link:nth-child(4){
+    
+}
+.page-footer-contacts-link:nth-child(5){
+    
+}
 .aside-copirights{
 /* clear style */
   }
