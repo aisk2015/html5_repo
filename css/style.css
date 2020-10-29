@@ -434,7 +434,6 @@ padding: 0;
 /* contacts style */
 .page-footer-contacts{
     width: 240px;
-    border:1px solid green;
     box-sizing: border-box;
     color: rgb(255, 255, 255);
 }
@@ -456,17 +455,25 @@ padding: 0;
     width: 24px;
     height: 24px;
     box-sizing: border-box;
-    border: 1px solid black;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
     top: 1px;
     left: 0;
+    background-image: url("../img/contact_icons.png");
   }
 .page-footer-contacts-ico:nth-child(1):before{
-    display: block;
-    
+    background-position: 0 0;
+}
+.page-footer-contacts-ico:nth-child(2):before{
+    background-position: 0 -41px;
+}
+.page-footer-contacts-ico:nth-child(3):before{
+    background-position: 0 -82px;
+}
+.page-footer-contacts-ico:nth-child(4):before{
+    background-position: 0 -122px;
 }
 .page-footer-social{
     display: flex;
